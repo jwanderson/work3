@@ -1,0 +1,622 @@
+.nav-item p{
+  display: none;
+}
+
+
+body{
+  line-height: 30px;
+}
+a{
+  color: green;
+}
+.line{
+  width: 60px;
+  border-width: 2px;
+  border-color: black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+img{
+  height: 50px;
+}
+li{
+  margin-right: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+.img{
+  width: 100%;
+  height: 600px;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  bottom: 60px;
+  right: 8%;
+  color: #000;
+  background: #fff;
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+
+}
+.bt{
+  width: 400px;
+}
+.start{
+ display: none;
+}
+
+.rs{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 1100px;
+}
+.check{
+  text-align: right;
+}
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: black;
+  border: solid 1.5px black;
+  border-radius: 3px;
+  transition: .4s;
+}
+.dennis{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+  
+}
+.ab{
+  padding-right: 60px;
+}
+.taro{
+  width: 500px;
+  height: 400px;
+  float: right;
+}
+
+.sf{
+  display: flex;
+  flex-direction: row;
+}
+.rs li{
+  font-weight: normal;
+  margin-bottom: 8px;
+  
+}
+
+.mens{
+  width: 1100px;
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.sin{
+  display: flex;
+  flex-direction: row;
+}
+.ld{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  }
+.work{
+  height: 500px;
+  width: 550px;
+}
+.tessa{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.ld{
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+.dream{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.dream h1{
+  font-size: 4rem;
+}
+.many{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.many div{
+  width: 33.333%;
+}
+.many h1{
+  text-align: center;
+}
+.many p{
+  text-align: center;
+}
+
+.air h1{
+  font-size: 4rem;
+}
+.what{
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.what div{
+  width: 50%;
+}
+.whatair{
+  margin-right: 40px;
+}
+.whathost{
+  margin-left: 40px;
+}
+.que{
+  display: flex;
+  flex-direction: row;
+}
+.que div{
+  width: 50%;
+}
+.que a{
+  font-size: 20px;
+}
+.hr{
+  margin-left: 1px;
+  width: 530px;
+}
+
+.hostimges{
+  display: flex;
+  flex-direction: row;
+}
+.hostimg{
+  width: 33.33%;
+}
+.hostimg p{
+  text-align: left;
+  margin-bottom: 0px;
+}
+.hostimg img{
+  width: 350px;
+  height: 200px;
+}
+
+
+
+
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80%;
+}
+
+#page-top a {
+  display: block;
+  background: #666;
+  color: #fff;
+  width: 100px;
+  padding: 25px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#page-top a:hover {
+  background: #999;
+  text-decoration: none;
+}
+
+
+
+
+.end{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.enditem{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.enditem p{
+  text-align: left;
+}
+.enditem a{
+  color: gray;
+  line-height: normal;
+}
+.enditem p,a{
+  font-weight: bold;
+}
+
+
+
+#graydisplay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%!important;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+}
+#graydisplay img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  height: 90%;
+}
+
+
+
+
+
+
+
+
+/* media */
+@media screen and (max-width: 1200px) {
+
+  .navbar{
+    display: none;
+  }
+
+   .cont{
+    display: flex;
+    flex-direction: row;
+      } 
+   .absolute{
+     display: none;
+   }
+   .img{
+     height: 400px;
+   }
+   .relative{
+     padding-top: 0px!important;
+     margin-top: 0px!important;
+   }
+   .start{
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+   
+   .bt{
+     width: 700px;
+     margin-left: auto!important;
+     margin-right: auto!important;
+     margin-top: 10px;
+   }
+   .rs{
+     width: 540px;
+   }
+   .dennis{
+     width: 650px;
+   }
+   .hs{
+     font-size: medium;
+   }
+   .taro{
+     width: 320px;
+     height: 300px;
+   }
+   .free{
+     font-size: small;
+   }
+   .safe{
+     width: 650px;
+   }
+   
+   .sf{
+     flex-direction: column;
+     
+   }
+   .sfitem{
+     width: 700px!important;
+     margin-right: auto!important;
+     margin-left: auto!important;
+   }
+   .sfitem ul{
+    margin-top: 30px;
+  }
+  .mens{
+    width: 650px;
+    height: 400px;
+  }
+  .sin{
+    flex-direction: column!important;
+  }
+  .low{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .ld{
+    width: 650px;
+  }
+  .work{
+    width: 350px;
+    height: 300px;
+  }
+  .tessa{
+    margin-left:50px;
+    margin-top: 80px;
+  }
+  .tessa h2{
+    font-size: large;
+  }
+  .tessa p{
+    line-height: 20px;
+    font-weight: lighter;
+  }
+  .dream{
+    width: 700px;
+  }
+  .many{
+    width: 700px;
+  }
+  .dream h1{
+    font-size: 2.5rem;
+  }
+  .airbnb{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .air h1{
+    font-size: 2.5rem;
+  }
+  .what{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .what div{
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whathost{
+    margin-top: 50px;
+  }
+  .quiz{
+    width: 700px;
+  }
+.que{
+  flex-direction: column;
+
+}
+.que div{
+  width: auto;
+}
+.que a{
+  font-size: medium;
+}
+.hr{
+  width: 700px;
+}
+.detail{
+  width: 700px;
+}
+.hostimg{
+  border: solid 1.5px lavender;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.hostimg img{
+  width: 100%;
+  height: 120px;
+}
+.hostimg a{
+  display: none;
+}
+
+.rsend{
+  width: 1000px;
+  max-width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.end{
+  max-width: 100%;
+}
+.bgtext{
+  width: auto;
+}
+.bgtext p{
+  font-size: 50px;
+}
+
+
+
+
+
+
+}
+@media screen and (max-width:800px){ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ld{
+  flex-direction: column;
+  width: auto;
+}
+.ld div{
+  width: auto!important;
+}
+.work{
+  width: auto!important;
+  max-width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tessa{
+  margin-left: 20px;
+  width: auto;
+  margin-right: 20px;
+}
+
+
+.dream{
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.dream h1{
+  text-align: left!important;
+}
+
+
+
+
+
+.many{
+  flex-direction: column;
+}
+.many div{
+  padding: 0px!important;
+  width: auto;
+}
+.many h1,p{
+  text-align: left;
+  width: auto;
+}
+
+.air h1{
+  margin-left: 20px;
+}
+
+.airbnb{
+  width: auto;
+}
+
+.what{
+  margin-left: 20px !important;
+  margin-right: 20px;
+  width: auto;
+}
+.whatair{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  width: auto!important;
+}
+.whatair p{
+  width: auto!important;
+}
+.whathost{
+  margin-left: 0px!important;
+  width: auto!important;
+  margin-bottom: 80px;
+}
+.whathost p{
+  width: auto!important;
+}
+ 
+ .line{
+   margin-left: 20px;
+ }
+ .air h1{
+   text-align: left!important;
+ }
+ .quiz{
+   max-width: 100%;
+   margin: 0px;
+   width: auto;
+   margin-left: 20px;
+ }
+ .que{
+   width: auto;
+   max-width: 100%;
+ }
+ .que div{
+   width: auto;
+ }
+ .hr{
+   width: auto;
+   max-width: 100%;
+   
+ }
+  .detail{
+    width: auto;
+  }
+  .hostimges{
+    flex-direction: column;
+    max-width: 100%;
+    width: auto;
+  }
+  .hostimg{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding-right: 20px;
+  }
+  .hostimg div{
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 25px;
+  }
+  .hostimg img{
+    width: 80px;
+    height: 80px;
+  }
+  .hostimg p{
+    width: 300px;
+    max-width: 100%;
+  }
+  .rsend{
+    display: none;
+  }
+ } 
+
+
